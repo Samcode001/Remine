@@ -114,20 +114,20 @@ let cardHeading=document.querySelector(".card-heading");
 reuse.addEventListener("click",(e)=>{
     e.preventDefault()
     cardHeading.innerHTML='Reuse Waste'
-    cardImage.src='assests/reuse-card-image.jpg';
+    cardImage.src='./assests/reuse-card-image.jpg';
     reuse.style.transition="all 200ms ease-in-out";
 })
 reduce.addEventListener("click",(e)=>{
         e.preventDefault()
     cardHeading.innerHTML='Reducing Waste';
-    cardImage.src='assests/reduce-card-image.jpg';
+    cardImage.src='./assests/reduce-card-image.jpg';
     reduce.style.transition="all 200ms ease-in-out";
 
 })
 recycle.addEventListener("click",(e)=>{
         e.preventDefault()
     cardHeading.innerHTML='Recycle Waste';
-    cardImage.src='assests/recycle-photo.jpg';
+    cardImage.src='./assests/recycle-photo.jpg';
     recycle.style.transition="all 200ms ease-in-out";
 
 })
