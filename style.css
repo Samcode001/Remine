@@ -964,9 +964,7 @@ textarea {
     transition: color 150ms ease-in-out;
   }
 
-  .footer-navigation>li>a:is(:hover, :focus) {
-    /* color: #22AA86; */
-  }
+  
 
   .footer-image-icon {
     /* outline: 2px solid red; */
@@ -989,7 +987,7 @@ textarea {
 
 /* ------------------------------ Utility Classes --------------------------- */
 .container {
-  --max-width: 1240px;
+  --max-width: 1440px;
   --container-padding: 1rem;
   width: min(var(--max-width), 100% - (var(--container-padding) * 2));
   margin-inline: auto;
